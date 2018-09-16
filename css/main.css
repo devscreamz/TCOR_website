@@ -1,18 +1,28 @@
 *{
     box-sizing: border-box;
 }
+body, html {
+    height: 100%
+}
+body {
 
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #F70000;
+     
+}
 
-
+/* Section Styles  */
+/*
 header .header-image1 {
 margin-top: 0px;
-width: 500px;
+width: 600px;
 height: 300px;
-/* border-radius: 100%; */
+ border-radius: 100%; 
 border: 2px solid black;
-/* margin-left: 1em;
+ margin-left: 1em;
 margin-right: 1em;
-margin-bottom: 1em; */
+margin-bottom: 1em; 
 position: relative;
 top: -5px; 
 left: 5px;
@@ -20,15 +30,44 @@ left: 5px;
 
 header .header-image2 {
     margin-top: 0px;
-    width: 500px;
+    width: 600px;
     height: 300px;
-    /* border-radius: 100%; */
+     border-radius: 100%; 
     border: 2px solid black;
-    /* margin-left: 1em;
+     margin-left: 1em;
     margin-right: 1em;
-    margin-bottom: 1em; */
+    margin-bottom: 1em;  
     position: relative;
     top: -5px; 
     right: 3px;
 
     }
+
+header .header-image3 {
+    margin-top: 0px;
+    width: 600px;
+    height: 300px;
+     border-radius: 100%; 
+    border: 2px solid black; 
+     margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em; 
+    position: relative;
+    top: -5px; 
+    left: -8px;
+    right: 3px;
+
+    } */
+
+.bg {
+    /* The image used */
+    background-image: url("../img/dreaming_city.jpg");
+
+    /* Full height  */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
