@@ -1,29 +1,80 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
 *{
     box-sizing: border-box;
 }
-body, html {
-    height: 100%
-}
-body {
 
-    text-align: center;
+body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #F70000;
+    color: darkred;
      
 }
 
+/* ----- Navigation ------ */
+
+.name {
+    font-size: 1.25em;
+}
+
+.name,
+.main-nav li {
+    text-align: center;
+    background: #fff;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
 /* Section Styles  */
-/*
-header .header-image {
+
+.header-image {
 margin-top: 0px;
-width: 600px;
-height: 300px;
- border-radius: 100%; 
+width: 100%;
+height: 25%;
+/* border-radius: 100%; */ 
 border: 2px solid black;
- margin-left: 1em;
+/* margin-left: 1em;
 margin-right: 1em;
-margin-bottom: 1em; 
-position: relative;
-top: -5px; 
-left: 5px;
+margin-bottom: 1em; */
+}
+
+/* ----- Layout Containers -------- */
+
+.header {
+width: 100%;
+margin: 0 auto;
+padding-left: 1em;
+padding-right: 1em;
+}
+
+.main-footer {
+text-align: center;
+padding: 2em 0;
+background: black;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+@media (min-width: 769px) {
+
+    .wrap {
+        min-height: 100vh;
+    }
+    .container {
+        width: 70%;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .name,
+    .main-nav li {
+        display: inline;
+    }
+
+    .name {
+        width: 240px;
+        margin-right: 50px;
+    }
 }
