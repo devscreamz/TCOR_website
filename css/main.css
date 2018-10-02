@@ -10,22 +10,17 @@ body {
 	font-family: 'Varela Round', sans-serif;
 	line-height: 1.6;
 	color: red;
+	margin-left: 10px;
 }
 
 p {
 	font-size: .95em;
-	margin-bottom: 1.5em;
 }
 
 h2,
 h3,
 a {
 	color: #093a58;
-}
-
-h2,
-h3 {
-	margin-top: 0;
 }
 
 a {
@@ -45,10 +40,14 @@ a {
 .name,
 .main-nav li {
 	text-align: center;
-	background: darkgrey;
+	background: #5e5e5e;
 	margin-top: 6px;
     margin-bottom: 6px;
-    
+    border-radius: 5%; 
+	padding-left: 3px;
+	padding-bottom: 3px;
+	padding-top: 2px;
+	padding-right: 3px;
 }
 
 .main-nav a {
@@ -80,7 +79,8 @@ a {
 	padding-top: 1.5em;
 	padding-bottom: 1.5em;
 	background: #000000;
-    margin-bottom: 15px;
+    
+
 }
 
 .main-footer {
@@ -94,7 +94,7 @@ a {
   Media Queries
 ==================================== */
 
-@media (min-width: 769px) {
+@media (min-width: 720px) {
 
 	.wrap {
 		min-height: calc(100vh - 89px);
@@ -116,7 +116,11 @@ a {
     }
 	.name {
         float: left;
-    }
+	}
+	
+	.header-image {
+		width: 35%;
+	}
 
     .clearfix::after {
         content: "";
