@@ -10,17 +10,17 @@ body {
 	font-family: 'Varela Round', sans-serif;
 	line-height: 1.6;
 	color: red;
-	margin-left: 10px;
+	
 }
 
 p {
 	font-size: .95em;
 }
 
-h2,
-h3,
-a {
+
+.main-nav a {
 	color: #093a58;
+	text-decoration: none;
 }
 
 a {
@@ -87,7 +87,8 @@ a {
 	text-align: center;
 	padding: 2em 0;
     background: #000000;
-    color: red;
+	color: red;
+	width: 100%;
 }
 
 /* =================================
